@@ -1,0 +1,81 @@
+Microfluidic Chip Design for a Lung-Cell 6-Nitrochrysene Detoxification Study
+Abstract
+This project presents the design of a microfluidic chip intended for a lung-cell toxicology study centered on 6-nitrochrysene. The device was developed as a controlled comparison platform with separate treated and untreated conditions, allowing direct observation of cellular response under matched geometry and flow conditions. The design emphasizes repeatability, clear experimental separation, practical loading access, and future adaptability for more advanced lung-chip or barrier-chip configurations.
+
+Introduction
+Microfluidic chips are valuable because they allow researchers to control small volumes of fluid in precisely defined geometries, making them useful for cell culture, transport studies, and toxicology testing. In lung-related research, microfluidic systems are especially useful because they can model a physiologically relevant environment and support more realistic testing than conventional static culture alone.
+
+This project builds on a previous 6-nitrochrysene research effort that investigated an experimentally valid detoxification path in lung cells. The new chip is intended to support a more engineered version of that research question by separating untreated and treated conditions into matched microfluidic lanes.
+
+Project Motivation
+6-nitrochrysene is a biologically important hazardous compound in toxicology research, and its behavior in lung-cell systems makes it relevant to environmental exposure studies. A microfluidic platform was chosen because it offers tighter control over exposure conditions, reagent use, and experimental geometry than a traditional culture dish.
+
+The design objective was not simply to make a visually interesting chip, but to create a device concept that would be easy to explain, compare, and eventually fabricate. The chip therefore needed to support a control condition and a treated condition in a way that was obvious from the layout itself.
+
+Design Goals
+The main design goals were:
+
+Create two matched experimental lanes for treated vs untreated comparison.
+
+Keep chamber geometry consistent across both conditions.
+
+Provide clear inlet and outlet access.
+
+Make the design visually organized for documentation and portfolio use.
+
+Use smooth transitions and rounded features where appropriate for microfluidic practicality.
+
+The chip was iterated multiple times to improve clarity and usability. Early versions were more abstract, while later versions developed into a clearer double-lane structure with repeated chambers and visible access ports.
+
+Chip Architecture
+The final concept uses two parallel lanes, one for untreated lung cells and one for lung cells exposed to 6-nitrochrysene. Each lane includes repeated chamber regions intended to represent culture or analysis zones, and each lane has access ports at the ends for loading and removal.
+
+The final geometry was chosen to make the comparison easy to understand:
+
+Untreated lane: lung cells + standard medium.
+
+Treated lane: lung cells + standard medium + 6-nitrochrysene.
+
+Same lane geometry in both cases.
+
+Separate flow paths to preserve experimental isolation.
+
+The inlet and outlet features were made into visible circular ports to make the device look more realistic and easier to explain as a microfluidic system. A small reservoir-style access region can be added if desired to make loading even more practical.
+
+Why This Layout Was Chosen
+A parallel treated-vs-untreated layout is well suited for this project because it preserves the core experimental comparison without introducing unnecessary complexity. A membrane-based chip would be better if the goal were to model a barrier interface or two interacting tissue layers, but that was not required for this version of the project.
+
+The repeated chamber layout also gives the design structure and makes it easier to scale or modify later. If additional replicates or more conditions are needed in the future, the concept can be expanded without redesigning the whole chip.
+
+Biological Relevance
+The biological logic of the chip is straightforward. The untreated lane provides a baseline lung-cell condition, while the treated lane is intended to show the response to 6-nitrochrysene exposure. Because the two lanes are geometrically matched, any difference in cell behavior should be more attributable to the chemical treatment than to the shape of the device.
+
+This makes the chip a useful conceptual platform for toxicology, especially when paired with future measurements such as viability, morphology, oxidative stress, or response to detoxification conditions. Lung-on-chip and organ-on-chip systems are widely used for this kind of more physiologically relevant testing.
+
+Geometry and Fabrication Considerations
+The model includes rounded corners and smooth transitions to reduce abrupt flow changes and make the design look more manufacturable. The port openings were set to a practical visible size so they can function as clear access points rather than tiny ambiguous holes. The chamber widths were kept consistent to preserve symmetry and ensure the comparison is fair.
+
+The final design was also kept visually clean so that the CAD model can be used directly in a portfolio, with screenshots, labels, and explanatory notes. For a project like this, presentation matters almost as much as the geometry itself because the goal is to show design reasoning, not just a finished shape.
+
+Final Design Summary
+The finished chip is a two-lane microfluidic concept for comparing treated and untreated lung-cell conditions under controlled geometry. It was developed as a continuation of a 6-nitrochrysene detoxification research idea and optimized to be clear, organized, and easy to explain. The design balances scientific purpose with clean CAD execution and is intended to serve as a strong portfolio project.
+
+Future Improvements
+Possible next steps include:
+
+Adding a more detailed experimental protocol.
+
+Creating a membrane-based version for barrier studies.
+
+Simulating flow or diffusion in the lanes.
+
+Preparing a fabrication-ready drawing set.
+
+Adding biological readouts and analysis plans.
+
+Conclusion
+This microfluidic chip design translates a lung toxicology question into a controlled engineering concept with clear treated and untreated conditions. The project demonstrates CAD iteration, experimental planning, and biomedical design thinking in a format that is suitable for a GitHub portfolio and future development.
+
+Acknowledgments
+This project was developed as part of a larger effort to explore microfluidic engineering and lung-cell toxicology modeling. The final design reflects iterative refinement, experimental motivation, and an interest in building practical biomedical devices.
+
